@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gray Home Décor — Estimators</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin:0; background:#0f172a; color:#e5e7eb; }
+    .wrap { max-width: 920px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 28px; margin: 0 0 12px; }
+    p  { color:#94a3b8; margin: 0 0 24px; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:16px; }
+    .card { background:#111827; border:1px solid #1f2937; border-radius:14px; padding:18px; }
+    .card h2 { margin:0 0 8px; font-size:18px; }
+    a.btn { display:inline-block; margin-top:10px; padding:10px 14px; border-radius:10px; background:#059669; color:white; text-decoration:none; font-weight:700; }
+    .tag { display:inline-block; font-size:12px; color:#fff; background:#334155; border:1px solid #475569; border-radius:999px; padding:2px 8px; margin-left:6px; }
+    .warn { background:#b91c1c; border:1px solid #dc2626; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Gray Home Décor — Estimators</h1>
+    <p>Choose the calculator you want to open:</p>
+
+    <div class="cards">
+      <div class="card">
+        <h2>Public Retail Estimator <span class="tag">Customer-facing</span></h2>
+        <p>Shows totals only. No reseller info.</p>
+        <a class="btn" href="./all_in_one_public_clean.html">Open Public Estimator</a>
+      </div>
+
+      <div class="card">
+        <h2>Reseller Estimator <span class="tag warn">Confidential</span></h2>
+        <p>Shows Retail, Reseller (20% off), and Profit. Do not share with customers.</p>
+        <a class="btn" href="./all_in_one_reseller_confidential.html">Open Reseller Estimator</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
